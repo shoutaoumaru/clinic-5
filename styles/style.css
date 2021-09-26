@@ -192,7 +192,7 @@ a:visited {
   position: absolute;
   top: 4px;
   right: 0;
-  background-image: url(/images/common/icon-tel.png);
+  background-image: url(../images/common/icon-tel.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -205,7 +205,7 @@ a:visited {
   position: absolute;
   top: 4px;
   right: 0;
-  background-image: url(/images/common/icon-link-1-black.png);
+  background-image: url(../images/common/icon-link-1-black.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -220,7 +220,7 @@ a:visited {
 .icon-map::before {
   content: "";
   display: block;
-  background-image: url(/images/common/icon-map.png);
+  background-image: url(../images/common/icon-map.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -241,7 +241,7 @@ a:visited {
   position: absolute;
   top: 0;
   left: 0;
-  background-image: url(/images/common/icon-insta-gr.png);
+  background-image: url(../images/common/icon-insta-gr.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -317,7 +317,7 @@ a:visited {
   left: 20px;
   height: 170px;
   width: 170px;
-  background-image: url(/images/home/doctor__women.jpg);
+  background-image: url(../images/home/doctor__women.jpg);
   background-position: 30%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -329,7 +329,7 @@ a:visited {
   right: 0;
   height: 150px;
   width: 130px;
-  background-image: url(/images/home/clinc.jpg);
+  background-image: url(../images/home/clinc.jpg);
   background-position: 70%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -411,7 +411,7 @@ a:visited {
 .p-treatments__img {
   height: 270px;
   width: 100%;
-  background-image: url(/images/home/tool__1@pc.jpg);
+  background-image: url(../images/home/tool__1@pc.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -460,7 +460,7 @@ a:visited {
 .p-doctor__img {
   height: 120%;
   width: 100%;
-  background-image: url(/images/home/staff__1@pc.jpg);
+  background-image: url(../images/home/staff__1@pc.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -539,7 +539,7 @@ a:visited {
   z-index: 100;
   height: 100px;
   width: 100px;
-  background-image: url(/images/arrow-right.png);
+  background-image: url(../images/arrow-right.png);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -652,7 +652,7 @@ a:visited {
   display: inline-block;
   height: 15px;
   width: 15px;
-  background-image: url(/images/common/icon-map.png);
+  background-image: url(../images/common/icon-map.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -665,7 +665,7 @@ a:visited {
 }
 
 .p-footer__logo {
-  background-image: url(/images/riv_logo_02.png);
+  background-image: url(../images/riv_logo_02.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -722,7 +722,7 @@ a:visited {
   margin-top: 40px;
   height: 280px;
   width: 322px;
-  background-image: url(/images/1d1d71d.jpg);
+  background-image: url(../images/1d1d71d.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -937,7 +937,7 @@ a:visited {
   left: 0;
   height: 15px;
   width: 15px;
-  background-image: url(/images/tel-gray.png);
+  background-image: url(../images/tel-gray.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -973,7 +973,7 @@ a:visited {
   margin-top: 40px;
   height: 280px;
   width: 322px;
-  background-image: url(/images/home/staff__1@sp.jpg);
+  background-image: url(../images/home/staff__1@sp.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -1097,7 +1097,7 @@ a:visited {
   content: "";
   position: absolute;
   right: 0;
-  background-image: url(/images/common/arrow.png);
+  background-image: url(../images/common/arrow.png);
   background-position: right center;
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -1296,7 +1296,7 @@ a:visited {
   right: 0;
   width: 4vw;
   height: 2.7vw;
-  background-image: url(/images/common/icon_arrow_large--bottom.svg);
+  background-image: url(../images/common/icon_arrow_large--bottom.svg);
   background-position: top center;
   background-repeat: no-repeat;
   background-size: 100%;
@@ -1394,7 +1394,7 @@ a:visited {
 }
 
 .p-header .logo {
-  background-image: url(/images/common/riv_logo_official2.png);
+  background-image: url(../images/common/riv_logo_official2.png);
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -1403,7 +1403,7 @@ a:visited {
 }
 
 .p-header .logo.inview {
-  background-image: url(/images/common/riv_logo_official-wh2.png);
+  background-image: url(../images/common/riv_logo_official-wh2.png);
 }
 
 .p-header .mobile-button {
@@ -1424,7 +1424,7 @@ a:visited {
   bottom: 0;
   left: 0;
   background-color: #fff;
-  opacity: .7;
+  opacity: 0.7;
   height: 10vh;
   width: 100%;
   z-index: 2000;
@@ -1572,14 +1572,14 @@ a:visited {
 }
 
 .mobile-menu .reserve-btn-wrap .reserve-btn-net span::after {
-  content: '';
+  content: "";
   display: inline-block;
   position: absolute;
   top: 12px;
   right: 5px;
   height: 12px;
   width: 12px;
-  background-image: url(/images/common/icon-link-1-black.png);
+  background-image: url(../images/common/icon-link-1-black.png);
   background-size: contain;
   background-repeat: no-repeat;
 }
@@ -1589,14 +1589,14 @@ a:visited {
 }
 
 .mobile-menu .reserve-btn-wrap .reserve-btn-tel span::after {
-  content: '';
+  content: "";
   display: inline-block;
   position: absolute;
   top: 13px;
   right: 10px;
   height: 12px;
   width: 12px;
-  background-image: url(/images/common/icon-tel.png);
+  background-image: url(../images/common/icon-tel.png);
   background-size: contain;
   background-repeat: no-repeat;
 }
@@ -1646,7 +1646,7 @@ a:visited {
   right: 20%;
   height: 20px;
   width: 20px;
-  background-image: url(/images/tel-gray.png);
+  background-image: url(../images/tel-gray.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -1657,7 +1657,7 @@ a:visited {
 .mobile-container .mobile-ico.inview {
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
-  background-image: url(/images/tel-white.png);
+  background-image: url(../images/tel-white.png);
 }
 
 .mobile-container .mobile-ico a {
@@ -1672,7 +1672,7 @@ a:visited {
   left: 5%;
   height: 43px;
   width: 138px;
-  background-image: url(/images/riv_logo-gray.png);
+  background-image: url(../images/riv_logo-gray.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -1683,7 +1683,7 @@ a:visited {
 .mobile-container .mobile-logo.inview {
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
-  background-image: url(/images/riv_logo-white.png);
+  background-image: url(../images/riv_logo-white.png);
 }
 
 .mobile-container .mobile-button {
@@ -1825,7 +1825,7 @@ a:visited {
 }
 
 .menu-open.logo {
-  background-image: url(/images/common/riv_logo_official2.png) !important;
+  background-image: url(../images/common/riv_logo_official2.png) !important;
 }
 
 .clip-js,
@@ -3110,7 +3110,7 @@ a:visited {
 }
 
 .cover-slide::after {
-  content: '';
+  content: "";
   position: absolute;
   z-index: 2;
   top: 0;
@@ -3259,7 +3259,7 @@ a:visited {
 }
 
 .hover-darken::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
@@ -3290,7 +3290,7 @@ a:visited {
 }
 
 .bg-img-zoom {
-  background-image: url(images/image-1.jpg);
+  background-image: url(../images/image-1.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -3303,7 +3303,7 @@ a:visited {
 
 .img-bg50::before {
   display: block;
-  content: '';
+  content: "";
   padding-top: 50%;
 }
 

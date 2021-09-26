@@ -2,18 +2,7 @@
 <html lang="ja">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>医院テンプレート5</title>
-  <link rel="stylesheet" href="/styles/vendor/logo-animation.min.css">
-  <link rel="stylesheet" href="styles/vendor/animsition.min.css">
-  <link rel="stylesheet" href="styles/vendor/bootstrap-reboot.css">
-  <link rel="stylesheet" href="styles/vendor/swiper.min.css">
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link
-    href="https://fonts.googleapis.com/css2?family=Cormorant+Infant:wght@300;400;600&family=Noto+Serif+JP:wght@200;400;600&display=swap"
-    rel="stylesheet">
-  <link rel="stylesheet" href="styles/style.css">
+<?php get_header(); ?>
 </head>
 
 <body>
@@ -92,7 +81,7 @@
     <header id="header" class="p-header">
       <div class="mobile-container">
         <div class="logo__img">
-          <a class="animsition-link" href="/">
+          <a class="animsition-link" href=" <?php echo esc_url( home_url('/')); ?>">
             <div class="logo"></div>
           </a>
         </div>
@@ -107,29 +96,29 @@
       <!-- /.mobile-container -->
       <div class="pc-container">
         <div class=" logo__img">
-          <a class="animsition-link" href="/">
+          <a class="animsition-link" href=" <?php echo esc_url( home_url('/')); ?>">
             <div class="logo-pc logo"></div>
           </a>
         </div>
         <nav class="pc-nav">
           <ul class="pc-nav-list">
             <li class="pc-nav-item">
-              <a class="pc-nav-link animsition-link" href="/promise/promise.html"><span>PROMISE</span></a>
+              <a class="pc-nav-link animsition-link" href=" <?php echo esc_url( home_url('/promise')); ?>"><span>PROMISE</span></a>
             </li>
             <li class="pc-nav-item">
-              <a class="pc-nav-link animsition-link" href="/treatment/treatment.html"><span>MENU</span></a>
+              <a class="pc-nav-link animsition-link" href=" <?php echo esc_url( home_url('/treatment')); ?>"><span>MENU</span></a>
             </li>
             <li class="pc-nav-item">
-              <a class="pc-nav-link animsition-link" href="/doctor/doctor.html"><span>DOCTOR</span></a>
+              <a class="pc-nav-link animsition-link" href=" <?php echo esc_url( home_url('/doctor')); ?>"><span>DOCTOR</span></a>
             </li>
             <li class="pc-nav-item">
-              <a class="pc-nav-link animsition-link" href="/news/news.html"><span>NEWS</span></a>
+              <a class="pc-nav-link animsition-link" href=" <?php echo esc_url( home_url('/news')); ?>"><span>NEWS</span></a>
             </li>
             <li class="pc-nav-item">
-              <a class="pc-nav-link animsition-link" href="/faq/faq.html"><span>FAQ</span></a>
+              <a class="pc-nav-link animsition-link" href=" <?php echo esc_url( home_url('/faq')); ?>"><span>FAQ</span></a>
             </li>
             <li class="pc-nav-item">
-              <a class="pc-nav-link animsition-link" href="recruit/recruit.html"><span>RECRUIT</span></a>
+              <a class="pc-nav-link animsition-link" href=" <?php echo esc_url( home_url('/recruit')); ?>"><span>RECRUIT</span></a>
             </li>
           </ul>
         </nav>
@@ -151,16 +140,16 @@
           <div class="swiper-container">
             <div class="swiper-wrapper">
               <div class="swiper-slide">
-                <img class="view-sp" src="/images/home/clinic__1@sp.jpg" />
-                <img class="view-pc" src="/images/home/clinic__1@pc.jpg" />
+                <img class="view-sp" src="<?php echo get_template_directory_uri(); ?>/images/home/clinic__1@sp.jpg" />
+                <img class="view-pc" src="<?php echo get_template_directory_uri(); ?>/images/home/clinic__1@pc.jpg" />
               </div>
               <div class="swiper-slide">
-                <img class="view-sp" src="/images/home/medical__2@sp.jpg" />
-                <img class="view-pc" src="/images/home/medical__2@pc.jpg" />
+                <img class="view-sp" src="<?php echo get_template_directory_uri(); ?>/images/home/medical__2@sp.jpg" />
+                <img class="view-pc" src="<?php echo get_template_directory_uri(); ?>/images/home/medical__2@pc.jpg" />
               </div>
               <div class="swiper-slide">
-                <img class="view-sp" src="/images/home/reception@sp.jpg" />
-                <img class="view-pc" src="/images/home/reception@pc.jpg" />
+                <img class="view-sp" src="<?php echo get_template_directory_uri(); ?>/images/home/reception@sp.jpg" />
+                <img class="view-pc" src="<?php echo get_template_directory_uri(); ?>/images/home/reception@pc.jpg" />
               </div>
             </div>
           </div>
@@ -175,7 +164,7 @@
           </h2>
           <div class="p-message-wrap appear up">
             <div class="p-message__img01 cover-slide parallax">
-              <img src="/images/home/medical__2@pc.jpg" alt="">
+              <img src="<?php echo get_template_directory_uri(); ?>/images/home/medical__2@pc.jpg" alt="">
             </div>
             <div class="p-message__txtarea appear up">
               <h4 class="p-message__txt-tit c-head02 item">
@@ -224,7 +213,7 @@
             </li>
           </ul>
           <div class="c-btn appear up">
-            <a class="c-link animsition-link item" href="/promise/promise.html">VIEW MORE</a>
+            <a class="c-link animsition-link item" href=" <?php echo esc_url( home_url('/promise')); ?>">VIEW MORE</a>
           </div>
         </div>
       </section>
@@ -265,7 +254,7 @@
             </div>
           </div>
           <div class="c-btn appear up">
-            <a class="c-link item animsition-link" href="/treatment/treatment.html">VIEW MORE</a>
+            <a class="c-link item animsition-link" href=" <?php echo esc_url( home_url('/treatment')); ?>">VIEW MORE</a>
           </div>
         </div>
       </section>
@@ -305,7 +294,7 @@
             </div>
           </div>
           <div class="c-btn appear up">
-            <a class="c-link animsition-link item" href="/doctor/doctor.html">VIEW MORE</a>
+            <a class="c-link animsition-link item" href=" <?php echo esc_url( home_url('/doctor')); ?>">VIEW MORE</a>
           </div>
         </div>
       </section>
@@ -318,28 +307,20 @@
           </h2>
           <div class="p-news__wrap appear up">
             <ul class="p-news__list item">
-              <li class="p-news__item">
-                <a href="/news/news-single.html">
-                  <span class="date">2021.4.1</span>
-                  <p>新型コロナウィルス感染拡大について</p>
-                </a>
-              </li>
-              <li class="p-news__item">
-                <a href="/news/news-single.html">
-                  <span class="date">2021.3.1</span>
-                  <p>診療時間変更について</p>
-                </a>
-              </li>
-              <li class="p-news__item">
-                <a href="/news/news-single.html">
-                  <span class="date">2021.2.1</span>
-                  <p>歯科衛生士求人について</p>
-                </a>
-              </li>
+              <?php query_posts('posts_per_page=3'); ?>
+              <?php if(have_posts()) : while(have_posts()) : the_post(); ?>
+                <li class="p-news__item">
+                  <a href="<?php the_permalink() ;?>">
+                    <span class="date"><?php echo get_the_date(); ?></span>
+                    <p><?php the_title(); ?></p>
+                  </a>
+                </li>
+              <?php endwhile; ?>
+              <?php endif; ?>
             </ul>
           </div>
           <div class="c-btn appear up">
-            <a class="c-link animsition-link item" href="/news/news.html">VIEW MORE</a>
+            <a class="c-link animsition-link item" href=" <?php echo esc_url( home_url('/news')); ?>">VIEW MORE</a>
           </div>
         </div>
       </section>
@@ -431,22 +412,22 @@
         <div class="p-footer__menu">
           <ul class="p-footer__list">
             <li class="p-footer__item">
-              <a class="animsition-link" href="/promise/promise.html">PROMISE</a>
+              <a class="animsition-link" href=" <?php echo esc_url( home_url('/promise')); ?>">PROMISE</a>
             </li>
             <li class="p-footer__item">
-              <a class="animsition-link" href="/treatment/treatment.html">MENU</a>
+              <a class="animsition-link" href=" <?php echo esc_url( home_url('/treatment')); ?>">MENU</a>
             </li>
             <li class="p-footer__item">
-              <a class="animsition-link" href="/doctor/doctor.html">DOCTOR</a>
+              <a class="animsition-link" href=" <?php echo esc_url( home_url('/doctor')); ?>">DOCTOR</a>
             </li>
             <li class="p-footer__item">
-              <a class="animsition-link" href="/news/news.html">NEWS</a>
+              <a class="animsition-link" href=" <?php echo esc_url( home_url('/news')); ?>">NEWS</a>
             </li>
             <li class="p-footer__item">
-              <a class="animsition-link" href="/faq/faq.html">FAQ</a>
+              <a class="animsition-link" href=" <?php echo esc_url( home_url('/faq')); ?>">FAQ</a>
             </li>
             <li class="p-footer__item">
-              <a class="animsition-link" href="/recruit/recruit.html">RECRUIT</a>
+              <a class="animsition-link" href="/ <?php echo esc_url( home_url('/recruit')); ?>">RECRUIT</a>
             </li>
           </ul>
         </div>
@@ -460,22 +441,22 @@
       <nav class="mobile-menu__nav">
         <ul class="mobile-menu__list">
           <li class="mobile-menu__item">
-            <a class="animsition-link" href="/promise/promise.html">PROMISE</a>
+            <a class="animsition-link" href=" <?php echo esc_url( home_url('/promise')); ?>">PROMISE</a>
           </li>
           <li class="mobile-menu__item">
-            <a class="animsition-link" href="/treatment/treatment.html">MENU</a>
+            <a class="animsition-link" href=" <?php echo esc_url( home_url('/treatment')); ?>">MENU</a>
           </li>
           <li class="mobile-menu__item">
-            <a class="animsition-link" href="/doctor/doctor.html">DOCTOR</a>
+            <a class="animsition-link" href=" <?php echo esc_url( home_url('/doctor')); ?>">DOCTOR</a>
           </li>
           <li class="mobile-menu__item">
-            <a class="animsition-link" href="/news/news.html">NEWS</a>
+            <a class="animsition-link" href=" <?php echo esc_url( home_url('/news')); ?>">NEWS</a>
           </li>
           <li class="mobile-menu__item">
-            <a class="animsition-link" href="/faq/faq.html">FAQ</a>
+            <a class="animsition-link" href=" <?php echo esc_url( home_url('/faq')); ?>">FAQ</a>
           </li>
           <li class="mobile-menu__item">
-            <a class="animsition-link" href="/recruit/recruit.html">RECRUIT</a>
+            <a class="animsition-link" href="/ <?php echo esc_url( home_url('/recruit')); ?>">RECRUIT</a>
           </li>
         </ul>
         <div class="reserve-btn-wrap">
@@ -497,20 +478,7 @@
     <!------ /.mobile-menu ----->
   </div>
   <!-- /.superwrapper -->
-  <!-- <script src="/scripts/vendor/pace.js"></script> -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-  <script src="/scripts/vendor/animsition.min.js"></script>
-  <script src="/scripts/libs/page.js"></script>
-  <script src="/scripts/vendor/swiper.min.js"></script>
-  <script src="/scripts/libs/hero-slider.js"></script>
-  <script src="/scripts/vendor/simpleParallax.min.js"></script>
-  <script src="/scripts/libs/scroll-btn.js"></script>
-  <script src="/scripts/libs/text-animation.js"></script>
-  <script src="/scripts/libs/parallax.js"></script>
-  <script src="/scripts/libs/scroll.js"></script>
-  <script src="/scripts/libs/change-img.js"></script>
-  <script src="/scripts/libs/mobile-menu.js"></script>
-  <script src="/scripts/main.js"></script>
+  <?php get_footer(); ?>
 </body>
 
 </html>

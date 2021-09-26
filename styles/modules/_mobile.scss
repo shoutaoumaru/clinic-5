@@ -8,7 +8,7 @@
   }
 
   & .logo {
-    background-image: url(/images/common/riv_logo_official2.png);
+    background-image: url(../images/common/riv_logo_official2.png);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -16,7 +16,7 @@
     width: 90px;
 
     &.inview {
-      background-image: url(/images/common/riv_logo_official-wh2.png);
+      background-image: url(../images/common/riv_logo_official-wh2.png);
     }
   }
 
@@ -27,7 +27,7 @@
     z-index: 3000;
   }
 
-  @media (max-width:960px) {
+  @media (max-width: 960px) {
     .pc-container {
       display: none;
     }
@@ -38,7 +38,7 @@
     bottom: 0;
     left: 0;
     background-color: $cWhite;
-    opacity: .7;
+    opacity: 0.7;
     height: 10vh;
     width: 100%;
     z-index: 2000;
@@ -85,7 +85,7 @@
   }
 }
 
-@media (min-width:960px) {
+@media (min-width: 960px) {
   .pc-container {
     position: fixed;
     top: 0;
@@ -173,14 +173,14 @@
         letter-spacing: 2px;
 
         &::after {
-          content: '';
+          content: "";
           display: inline-block;
           position: absolute;
           top: 12px;
           right: 5px;
           height: 12px;
           width: 12px;
-          background-image: url(/images/common/icon-link-1-black.png);
+          background-image: url(../images/common/icon-link-1-black.png);
           background-size: contain;
           background-repeat: no-repeat;
         }
@@ -192,14 +192,14 @@
         letter-spacing: 4px;
 
         &::after {
-          content: '';
+          content: "";
           display: inline-block;
           position: absolute;
           top: 13px;
           right: 10px;
           height: 12px;
           width: 12px;
-          background-image: url(/images/common/icon-tel.png);
+          background-image: url(../images/common/icon-tel.png);
           background-size: contain;
           background-repeat: no-repeat;
         }
@@ -207,7 +207,7 @@
     }
   }
 
-  @media (min-width:600px) {
+  @media (min-width: 600px) {
     .reserve-btn-wrap {
       padding-left: 10vw;
 
@@ -259,7 +259,7 @@
     right: 20%;
     height: 20px;
     width: 20px;
-    background-image: url(/images/tel-gray.png);
+    background-image: url(../images/tel-gray.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -267,7 +267,7 @@
 
     &.inview {
       transition: all 0.3s;
-      background-image: url(/images/tel-white.png);
+      background-image: url(../images/tel-white.png);
     }
 
     & a {
@@ -283,7 +283,7 @@
     left: 5%;
     height: 43px;
     width: 138px;
-    background-image: url(/images/riv_logo-gray.png);
+    background-image: url(../images/riv_logo-gray.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -291,10 +291,9 @@
 
     &.inview {
       transition: all 0.3s;
-      background-image: url(/images/riv_logo-white.png);
+      background-image: url(../images/riv_logo-white.png);
     }
   }
-
 
   .mobile-button {
     position: fixed;
@@ -311,12 +310,12 @@
     display: block;
 
     &.inview {
-      &>span {
+      & > span {
         background-color: #fff;
       }
     }
 
-    &>span {
+    & > span {
       background-color: $cBlack;
       width: 23px;
       height: 1px;
@@ -333,7 +332,7 @@
       }
     }
 
-    @media (min-width:600px) {
+    @media (min-width: 600px) {
       & span {
         width: 35px;
         margin-bottom: 9px;
@@ -368,7 +367,7 @@
   }
 
   .mobile-menu__btn {
-    &>span {
+    & > span {
       background-color: $cBlack !important;
 
       &:nth-child(1) {
@@ -389,6 +388,6 @@
   }
 
   &.logo {
-    background-image: url(/images/common/riv_logo_official2.png) !important;
+    background-image: url(../images/common/riv_logo_official2.png) !important;
   }
 }
