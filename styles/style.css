@@ -3389,7 +3389,7 @@ Stylesheet: 600px以上のタブレットやモニタで適用
     padding-bottom: 80vw;
   }
   .p-message__img01 {
-    width: 80%;
+    width: 48%;
     height: 34vh;
   }
   .p-message__sub-img01 {
@@ -3405,6 +3405,7 @@ Stylesheet: 600px以上のタブレットやモニタで適用
   }
   .p-message__txtarea {
     margin-top: 5vw;
+    width: 48%;
   }
   .p-message-wrap {
     display: -webkit-box;
