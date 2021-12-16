@@ -14,7 +14,7 @@ Stylesheet: 1200px以上のモニタで適用
 //.p-header 
 .p-header {
   & .logo__img {
-    margin: 12px 20px 0 80px;
+    margin: 30px 20px 0 80px;
   }
 
   & .pc-nav {
@@ -24,7 +24,7 @@ Stylesheet: 1200px以上のモニタで適用
 
 //.p-top-view
 .p-topview {
-  padding: 4vw 5vw;
+  // padding: 4vw 5vw;
 
   & .swiper-container {
     height: 87vh;

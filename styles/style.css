@@ -1497,9 +1497,9 @@ a:visited {
     display: flex;
   }
   .pc-container .pc-nav-item {
-    font-size: 1rem;
+    font-size: 1.2rem;
     padding-top: 3vw;
-    padding-right: 5vw;
+    padding-right: 3.5vw;
   }
 }
 
@@ -3630,10 +3630,10 @@ Stylesheet: 960px以上のモニタで適用
     color: #ffff;
   }
   .p-header .logo__img {
-    margin: 15px 20px 0 60px;
+    margin: 20px 20px 0 60px;
   }
   .p-header .logo__img .logo {
-    width: 110px;
+    width: 160px;
   }
   .p-topview .swiper-container .view-sp {
     display: none;
@@ -3783,13 +3783,10 @@ Stylesheet: 1200px以上のモニタで適用
     padding: 0 12vw;
   }
   .p-header .logo__img {
-    margin: 12px 20px 0 80px;
+    margin: 30px 20px 0 80px;
   }
   .p-header .pc-nav {
     margin-right: 3vw;
-  }
-  .p-topview {
-    padding: 4vw 5vw;
   }
   .p-topview .swiper-container {
     height: 87vh;
